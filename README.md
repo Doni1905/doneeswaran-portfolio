@@ -1,32 +1,34 @@
-# Doneeswaran J — Portfolio
+# Doneeswaran J — Personal Portfolio
 
-A responsive, dark editorial-style personal portfolio built with semantic HTML, CSS and vanilla JavaScript.
+A premium, responsive portfolio inspired by the clean editorial structure and motion-led storytelling of modern personal engineering websites. Built with semantic HTML, CSS and vanilla JavaScript — no build step required.
 
-## Features
-- Minimal dark visual system with lime accents
-- Responsive desktop and mobile layouts
-- Scroll-triggered reveal animations
-- Project, experience, skills and contact sections
-- Reduced-motion accessibility support
-- No build step or framework dependency
+## Design & interactions
+- Editorial hero with animated typography and an abstract orbital illustration
+- Intro loader and top-of-page scroll progress indicator
+- Subtle ambient pointer glow and magnetic primary CTA on pointer devices
+- Marquee, scroll-triggered section reveals and animated metric counters
+- Custom project visualisations, hover lift and responsive navigation
+- Reduced-motion support and mobile-first responsive layouts
+
+## Sections
+About · Experience · Selected Projects · Research & Education · Toolkit · Contact
 
 ## Run locally
-Open `index.html` in a browser, or run a local static server:
-
 ```bash
 python3 -m http.server 8000
 ```
-
-Then visit http://localhost:8000.
+Open http://localhost:8000.
 
 ## Deploy with GitHub Pages
-1. Open **Settings → Pages** in this repository.
-2. Under **Build and deployment**, select **Deploy from a branch**.
+1. Open **Settings → Pages**.
+2. Choose **Deploy from a branch**.
 3. Select **main** and **/(root)**, then save.
-4. GitHub Pages will publish the site at the repository's Pages URL.
 
-## Personalization
-Update project details and links in `index.html`. The current portfolio uses a typography-led hero; a professional portrait can be added later without changing the layout.
+## Personalisation notes
+- Update content and project URLs in `index.html`.
+- The current hero uses a typography-led identity treatment rather than a portrait.
+- Project claims and experience details are based on the supplied resume. A few project cards link to the GitHub profile because a direct repository URL was not included in the resume.
+- Contact details are shown as supplied in the resume.
 
 ---
-Built by Doneeswaran J.
+Designed and built for Doneeswaran J.
